@@ -5,7 +5,7 @@ from tkinter import * #importar la libreria
 # VENTANA
 ventana = Tk() #interfaz
 ventana.title("Calculadora") #configura el titulo de la ventana
-ventana.config(backgroud="lightblue") #configura el color de fondo de la ventana
+ventana.config(background="lightblue") #configura el color de fondo de la ventana
 
 # PANEL
 panel = Entry(ventana,font = ("Calibri 17")) #agrega la pantalla con configuracion del tipo y tamaño de letra
